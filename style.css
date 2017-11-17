@@ -1,0 +1,59 @@
+/* simple or general style */
+* {
+    margin: 0;
+    padding 0;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    font-size: 0.875em;
+    font-family: Lato, Arial, Helvetica, sans-serif;
+    background-color: #dcffdc;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: Maven Pro, Calibri, Arial;
+    font-weight: 400;
+}
+h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #58b458;
+}
+
+.clear-fx {
+    display: block;
+    content: "";
+    visibility: hidden;
+    overflow: hidden;
+    width: 0;
+    height: 0;
+    font-size: 0;
+    line-height: 0;
+    clear: both;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.container-sm {
+    max-width: 700;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.button {
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #000;
+    font-family: Maven Pro, Calibri, Arial;
+    font-size: 0.875em;
+    padding: 8px 11px;
+}
